@@ -1,17 +1,28 @@
 body {
 	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/marble.png");
 }
-.center {
-  text-align: center;
-}
+
 
 h1 {
+  text-align: center;
   color: #D4AF37;
   margin-left: 30px;
 }
 
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto
+}
+
 div {
-  background-color: lightgrey;
+  width: 300px;
   border: 5px gold;
   padding: 50px;
   margin: 20px;
