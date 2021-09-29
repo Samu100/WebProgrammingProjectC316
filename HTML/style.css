@@ -3,6 +3,17 @@ body {
 }
 
 h1 {
-  color: gold;
+  color: #D4AF37;
   margin-left: 30px;
+}
+
+:any-link {
+  color: gray;
+}
+
+div {
+  width: 300px;
+  border: 15px #D4AF37;
+  padding: 20px;
+  margin: 20px;
 }
