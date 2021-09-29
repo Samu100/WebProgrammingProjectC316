@@ -1,9 +1,8 @@
 body {
 	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/marble.png");
 }
-.content {
-  max-width: 500px;
-  margin: auto;
+.center {
+  text-align: center;
 }
 
 h1 {
@@ -13,7 +12,6 @@ h1 {
 
 div {
   background-color: lightgrey;
-  width: 900px;
   border: 5px gold;
   padding: 50px;
   margin: 20px;
@@ -22,6 +20,6 @@ div {
 :any-link {
   color: gray;
 }
-img:hover {
+a:hover {
   background-color: white;
 }
