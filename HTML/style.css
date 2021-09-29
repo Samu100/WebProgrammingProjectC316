@@ -1,8 +1,8 @@
 body {
-  background-color: lightblue;
+	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/marble.png");
 }
 
 h1 {
-  color: navy;
+  color: gold;
   margin-left: 30px;
 }
