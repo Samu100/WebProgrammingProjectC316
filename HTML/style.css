@@ -21,13 +21,6 @@ img {
   margin-right: auto
 }
 
-div {
-  width: 300px;
-  border: 5px gold;
-  padding: 50px;
-  margin: 20px;
-}
-
 :any-link {
   color: gray;
 }
