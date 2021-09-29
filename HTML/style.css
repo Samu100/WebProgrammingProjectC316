@@ -1,6 +1,10 @@
 body {
 	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/marble.png");
 }
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 
 h1 {
   color: #D4AF37;
@@ -9,8 +13,8 @@ h1 {
 
 div {
   background-color: lightgrey;
-  width: 300px;
-  border: 55px gold;
+  width: 150px;
+  border: 5px gold;
   padding: 50px;
   margin: 20px;
 }
@@ -18,4 +22,6 @@ div {
 :any-link {
   color: gray;
 }
-
+a:hover {
+  background-color: yellow;
+}
