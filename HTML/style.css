@@ -7,13 +7,15 @@ h1 {
   margin-left: 30px;
 }
 
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 55px gold;
+  padding: 50px;
+  margin: 20px;
+}
+
 :any-link {
   color: gray;
 }
 
-div {
-  width: 300px;
-  border: 15px #D4AF37;
-  padding: 20px;
-  margin: 20px;
-}
