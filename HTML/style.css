@@ -41,9 +41,9 @@ a:hover {
 
 .box{
 	box-sizing: content-box;
-	width: 300px;
-	height: 300px;
+	width: 100px;
+	height: 50px;
 	padding: 5px;
-	margin: 5px;
-	border: 2pt #D4AF37;
+	margin: 10px;
+	border: solid 2pt #D4AF37;
 }
