@@ -41,3 +41,7 @@ img {
 a:hover {
   background-color: white;
 }
+
+#phoneNumber {
+  font-style: italic;
+}
