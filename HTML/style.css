@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   color: #D4AF37;
   margin-left: 30px;
+  text-shadow: 8px 8px 0 rgba(0,0,0,0,5);
 }
 
 h2 {
@@ -41,8 +42,8 @@ a:hover {
 
 .box{
 	box-sizing: content-box;
-	width: 100%;
-	padding: 5px;
-	margin: 10px;
-	border: solid 2pt #D4AF37;
+	width: 50%;
+	padding: 10px;
+	margin: 20px;
+	border: solid 5pt #D4AF37;
 }
