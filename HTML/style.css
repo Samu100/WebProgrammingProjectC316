@@ -39,7 +39,7 @@ a:hover {
   font-style: italic;
 }
 
-div{
+.box{
 	box-sizing: content-box;
 	width: 300px;
 	height: 300px;
