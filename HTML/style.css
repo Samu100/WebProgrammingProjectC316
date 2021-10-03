@@ -12,6 +12,20 @@ h1 {
 h2 {
   text-align: center;
 }
+
+.imageDetails {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.subhead {
+  text-align: center;
+  color: rgb(17, 212, 115);
+  font-family:cursive;
+}
+
 p {
   text-align: center;
 }
