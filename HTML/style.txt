@@ -7,19 +7,11 @@ h1 {
   text-align: center;
   color: #D4AF37;
   margin-left: 30px;
-  text-shadow: 8px 8px 0 rgba(0,0,0,0,5);
 }
 
 h2 {
   text-align: center;
 }
-
-.subhead {
-  text-align: center;
-  color: rgb(17, 212, 115);
-  font-family:Brush Script MT;
-}
-
 p {
   text-align: center;
 }
@@ -34,16 +26,4 @@ img {
 }
 a:hover {
   background-color: white;
-}
-
-#phoneNumber {
-  font-style: italic;
-}
-
-.box{
-	box-sizing: content-box;
-	width: 50%;
-	padding: 10px;
-	margin: 20px;
-	border: solid 5pt #D4AF37;
 }
