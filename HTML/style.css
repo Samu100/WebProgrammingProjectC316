@@ -48,19 +48,25 @@ a:hover {
 	border: solid 5pt #D4AF37;
 }
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 caption {
 	font-family:Brush Script MT;
-	text-align: center;
-	text-transform: uppercase;
-	
+	text-align: center;	
 }
 
 table {
 	border-top: solid 5pt #D4AF37;
-	border-spacing: 2pt;
+	border-spacing: 5pt;
 }
 
 td {
-	border: solid 1pt black;
-	padding: 5pt;
+	padding: 10pt;
+}
+
+tbody tr:hover{
+	background color: rgb(17, 212, 115); 
 }
