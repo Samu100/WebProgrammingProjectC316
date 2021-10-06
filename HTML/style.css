@@ -47,3 +47,20 @@ a:hover {
 	margin: 20px;
 	border: solid 5pt #D4AF37;
 }
+
+caption {
+	font-family:Brush Script MT;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+table {
+	border-top: solid 5pt #D4AF37;
+	border-spacing: 2pt;
+}
+
+td {
+	border: solid 1pt black;
+	padding: 5pt;
+}
