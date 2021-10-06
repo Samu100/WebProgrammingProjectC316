@@ -81,6 +81,11 @@ td {
 	padding: 10pt;
 }
 
+thead {
+	font-family: Courier New (monospace);
+	background-color: #DEDEDE;
+}
+
 tbody {
 	background-color: gray;
 	border-bottom: solid 1px white; 
