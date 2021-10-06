@@ -89,3 +89,7 @@ tbody {
 tbody td:hover{
 	background-color: rgb(17, 212, 115); 
 }
+
+tfoot {
+	background-color: #DEDEDE;
+}
