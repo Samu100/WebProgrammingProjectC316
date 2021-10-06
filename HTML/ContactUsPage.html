@@ -38,6 +38,16 @@
                     <input type="text" name="last name"/>
                 </p>
                 <p>
+                    <label>Gender: </label><br/>
+                    <input type="checkbox" name="gender" value="male">Male<br/>
+                    <input type="checkbox" name="gender" value="female">Female<br/>
+                    <input type="checkbox" name="gender" value="other">Other<br/>
+                </p>
+                <p>
+                    <label>Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                </p>
+                <p>
                     <label>Address:</label>
                     <input type="text" name="address"/>
                 </p>
@@ -49,11 +59,17 @@
                     <label>Country: </label>
                     <select name="where">
                         <option>Choose a country</option>
-                        <option>Canada</option>
-                        <option>Italy</option>
-                        <option>Mexico</option>
-                        <option>United States</option>
-                        <option>Rest Of The World</option>
+                        <optgroup label="North America">
+                            <option>Canada</option>
+                            <option>Mexico</option>
+                            <option>United States</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option>Italy</option>
+                        </optgroup>
+                        <optgroup label="Other">
+                            <option>Rest Of The World :)</option>
+                        </optgroup>
                     </select>
                 </p>
                 <p>
@@ -85,7 +101,7 @@
         <Summary>Contact Us</Summary>
         <a href="ContactUsPage.html">Click Link To Fill Out Form!</a>
     </details>
-    
+
 </body>
 
 </html>
