@@ -26,29 +26,49 @@
     </div>
     <br>
 
-    <div class="box">
-    <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/main/Images/bean.jpg" height="200" width="200" alt="The Bean" class="imageDetails">
-&nbsp&nbsp&nbsp&nbsp&nbsp
-    <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/Famous-Sculptures-Lincoln-Memorial.jpg" height="200" width="200" alt="Lincoln" class="imageDetails">
-&nbsp&nbsp&nbsp&nbsp&nbsp
-    <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/main/Images/1200px-'David'_by_Michelangelo_Fir_JBU005_denoised.jpg" height="200" width="200" alt="David Statue" class="imageDetails">
-    <br>
-    <br>
-    <br>
-     <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/Famous-Sculpture-Venus-de-Milo.jpg" height="200" width="200" alt="Venus" class="imageDetails">
-&nbsp&nbsp&nbsp&nbsp&nbsp
-     <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/famous-sculptures-jeff-koon-balloon-dog.jpg" height="200" width="200" alt="balloon dog" class="imageDetails">
-&nbsp&nbsp&nbsp&nbsp&nbsp
-     <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/bust%20of%20nefertiti.jpg" height="200" width="200" alt="nerfertiti" class="imageDetails">
-    </div>
+    <form method ="post" action="http://examples.funwebdev.com/process.php ">
+        <fieldset>
+            <legend>Contact Form</legend>
+                <p>
+                    <label>First Name:</label>
+                    <input type="text" name="first name"/>
+                </p>
+                <p>
+                    <label>Last Name:</label>
+                    <input type="text" name="last name"/>
+                </p>
+                <p>
+                    <label>Address:</label>
+                    <input type="text" name="address"/>
+                </p>
+                <p>
+                    <label>City:</label>
+                    <input type="text" name="city"/>
+                </p>
+                <p>
+                    <label>Country: </label>
+                    <select name="where">
+                        <option>Choose a country</option>
+                        <option>Canada</option>
+                        <option>Italy</option>
+                        <option>Mexico</option>
+                        <option>United States</option>
+                        <option>Rest Of The World</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Feedback/Question: </label>
+                    <textarea name="text" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea>
+                </p>
+                <input type="submit" />
+                <input type="reset" />
+        </fieldset>
+    </form>
 
     <br>
     <br>
     <br>
     
-    <p>Visit Again Soon!</p>
-    
-
     <details>
         <Summary>Email</Summary>
         <p><a href="mailto: inquiries@embezzled.com">inquiries@embezzled.com</a></p>
@@ -61,9 +81,11 @@
         <Summary>Address</Summary>
         <a href="https://www.google.com/maps/dir//789+Manchester+St,+Lexington,+KY+40508/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8842448e1b4d79b9:0x6356bb1c404975f9?sa=X&ved=2ahUKEwiaivv5konzAhVPHc0KHW6BBbkQwwV6BAgIEAM">789 S. Manchester St, Lexington, KY 40502</a>
     </details>
-        
-
-   
+    <details>
+        <Summary>Contact Us</Summary>
+        <a href="ContactUsPage.html">Click Link To Fill Out Form!</a>
+    </details>
+    
 </body>
 
 </html>
