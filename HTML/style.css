@@ -67,7 +67,7 @@ a:hover {
 
 caption {
 	font-family:Brush Script MT;
-	font-size: 20px;
+	font-size: 130%;
 	text-align: center;	
 }
 
@@ -86,6 +86,6 @@ tbody {
 	border-bottom: solid 1px white; 
 }
 
-tbody tr:hover{
+tbody td:hover{
 	background-color: rgb(17, 212, 115); 
 }
