@@ -21,42 +21,51 @@
         <h2>Welcome to the Premier Sculpture Gallery</h2>
     </div>
 
-    <div class="subhead">
-        <h2>Stock</h2>
-    </div>
     <br>
 
     <form method ="post" action="http://examples.funwebdev.com/process.php ">
         <fieldset>
-            <legend>Contact Form</legend>
-                <p>
-                    <label>First Name:</label>
+            <legend>Fill Out Form Below</legend>
+                <br>
+                <div class="formElements">
+                    <label>First Name</label>
+                    <br>
                     <input type="text" name="first name"/>
-                </p>
-                <p>
-                    <label>Last Name:</label>
+                </div>
+                <div class="formElements">
+                    <label>Last Name</label>
+                    <br>
                     <input type="text" name="last name"/>
-                </p>
-                <p>
-                    <label>Gender: </label><br/>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>Gender</label><br/>
                     <input type="checkbox" name="gender" value="male">Male<br/>
                     <input type="checkbox" name="gender" value="female">Female<br/>
                     <input type="checkbox" name="gender" value="other">Other<br/>
-                </p>
-                <p>
-                    <label>Phone Number:</label>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>Phone Number</label>
+                    <br>
                     <input type="tel" id="phone" name="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-                </p>
-                <p>
-                    <label>Address:</label>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>Address</label>
+                    <br>
                     <input type="text" name="address"/>
-                </p>
-                <p>
-                    <label>City:</label>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>City</label>
+                    <br>
                     <input type="text" name="city"/>
-                </p>
-                <p>
-                    <label>Country: </label>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>Country</label>
+                    <br>
                     <select name="where">
                         <option>Choose a country</option>
                         <optgroup label="North America">
@@ -71,11 +80,14 @@
                             <option>Rest Of The World :)</option>
                         </optgroup>
                     </select>
-                </p>
-                <p>
-                    <label>Feedback/Question: </label>
+                </div>
+                <br>
+                <div class="formElements">
+                    <label>Feedback/Question</label>
+                    <br>
                     <textarea name="text" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea>
-                </p>
+                </div>
+                <br>
                 <input type="submit" />
                 <input type="reset" />
         </fieldset>

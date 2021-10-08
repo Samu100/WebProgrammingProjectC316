@@ -98,3 +98,17 @@ tbody td:hover{
 tfoot {
 	text-align: center;
 }
+
+.formElements{
+	font-weight: bold;
+}
+
+fieldset{
+	background-color: rgb(207, 178, 82)
+}
+
+legend{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
