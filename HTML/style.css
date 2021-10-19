@@ -112,3 +112,19 @@ legend{
 	text-decoration: underline;
 	font-size: 20px;
 }
+
+
+nav{
+	width: 12em;
+	float: left;
+}
+
+aside{
+	width: 12em;
+	float: right;
+}
+
+div#main {
+	margin-left: 13em;
+	margin-right: 13em;
+}
