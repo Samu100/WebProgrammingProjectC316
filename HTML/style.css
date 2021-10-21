@@ -134,7 +134,35 @@ aside{
 	float: right;
 }
 
-#main {
+/* #main {
 	margin-left: 13em;
 	margin-right: 13em;
+} */
+
+figure {    
+	padding: 10px;
+	width: 200px;
+	margin: 10px;
+	position: relative;
+}
+
+figcaption.popup {
+	/**Style the frame**/
+	padding: 5px; 
+	background: rgb(207, 178, 82); 
+	
+	/*add a drop shadow to the frame*/
+	box-shadow: 0 0 15px rgba(0,0,0, .75);
+
+	position: absolute;
+	visibility: hidden;
+}
+
+figure.thumbnail:hover figcaption.popup {
+	visibility: visible;
+
+	top: 0;
+	left: 100px;
+	position: absolute;
+	z-index: 1;
 }
