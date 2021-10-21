@@ -52,6 +52,7 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .box{
 	box-sizing: content-box;
 	width: 50%;
@@ -113,15 +114,16 @@ legend{
 	font-size: 20px;
 }
 
-
 nav{
-	width: 12em;
+
+
+%	width: 12em;
 	float: left;
 }
 
 .menu{
 	position: absolute;
-	left: -100px;
+	left: -200px;
 }
 
 .menu:hover{
@@ -135,6 +137,7 @@ aside{
 }
 
 #main {
+	float: center;
 	margin-left: 13em;
 	margin-right: 13em;
 }
