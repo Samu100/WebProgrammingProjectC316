@@ -115,7 +115,7 @@ legend{
 }
 
 nav{
-	float: left;
+	position: left;
 	width: 200px;
 }
 
@@ -130,7 +130,7 @@ nav{
 }
 
 aside{
-	float: right;
+	position: right;
 	width: 200px;
 }
 
