@@ -1,0 +1,173 @@
+
+body {
+	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/marble.png");
+}
+
+h1 {
+  text-align: center;
+  color: #D4AF37;
+  margin-left: 50px;
+  text-shadow: 8px 8px 0 rgba(0,0,0,0,5);
+}
+
+h2 {
+  text-align: center;
+}
+
+.subhead {
+  text-align: center;
+  color: rgb(17, 212, 115);
+  font-family:Brush Script MT;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto
+}
+
+:any-link {
+  color: gray;
+}
+a:hover {
+  background-color: white;
+}
+
+#phoneNumber {
+  font-style: italic;
+}
+
+.box{
+	box-sizing: content-box;
+	width: 50%;
+	padding: 10px;
+	margin: 20px;
+	border: solid 5pt #D4AF37;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box{
+	box-sizing: content-box;
+	width: 50%;
+	padding: 10px;
+	margin: 20px;
+	border: solid 2pt rgb(17, 212, 115);
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+caption {
+	font-family:Brush Script MT;
+	font-size: 160%;
+	text-align: center;	
+}
+
+table {
+	border-top: solid 5pt rgb(17, 212, 115);
+	border-spacing: 5pt;
+}
+
+td {
+	border: none;
+	padding: 10pt;
+}
+
+thead {
+	font-family: Optima;
+	background-color: #DEDEDE;
+}
+
+tbody {
+	background-color: gray;
+	border-bottom: solid 1px white; 
+}
+
+tbody td:hover{
+	background-color: rgb(17, 212, 115); 
+}
+
+tfoot {
+	text-align: center;
+}
+
+.formElements{
+	font-weight: bold;
+}
+
+fieldset{
+	background-color: rgb(207, 178, 82)
+}
+
+legend{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+nav{
+	position: left;
+	width: 200px;
+}
+
+.menu{
+	position: absolute;	
+	left: -200px;
+}
+
+.menu:hover{
+	left: 0;
+	transition: left .5s ease-out;
+}
+
+aside{
+	position: right;
+	width: 200px;
+}
+
+/* #main {
+	margin-left: 13em;
+	margin-right: 13em;
+} */
+
+figure {    
+	padding: 10px;
+	width: 200px;
+	margin: 10px;
+	position: relative;
+}
+
+figcaption.popup {
+	/**Style the frame**/
+	padding: 5px; 
+	background: rgb(207, 178, 82); 
+	
+	/*add a drop shadow to the frame*/
+	box-shadow: 0 0 15px rgba(0,0,0, .75);
+
+	position: absolute;
+	visibility: hidden;
+}
+
+figure.thumbnail:hover figcaption.popup {
+	visibility: visible;
+
+	top: 0;
+	left: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+#main {
+	margin-left: 210px;
+	margin-right: 210px;
+}
