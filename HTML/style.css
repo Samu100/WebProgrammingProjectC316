@@ -117,12 +117,12 @@ legend{
 
 nav{
 	float: left;
-	width: 50px;
+	width: 200px;
 }
 
 .menu{
 	position: absolute;
-	left: -100px;
+	left: -205px;
 }
 
 .menu:hover{
@@ -132,10 +132,10 @@ nav{
 
 aside{
 	float: right;
-	width: 50px;
+	width: 200px;
 }
 
 #main {
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 210px;
+	margin-right: 210px;
 }
