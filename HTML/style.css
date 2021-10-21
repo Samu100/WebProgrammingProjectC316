@@ -52,6 +52,7 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .box{
 	box-sizing: content-box;
 	width: 50%;
@@ -113,15 +114,14 @@ legend{
 	font-size: 20px;
 }
 
-
 nav{
-	width: 12em;
-	float: left;
+	position: left;
+	width: 200px;
 }
 
 .menu{
-	position: absolute;
-	left: -100px;
+	position: absolute;	
+	left: -200px;
 }
 
 .menu:hover{
@@ -130,8 +130,8 @@ nav{
 }
 
 aside{
-	width: 12em;
-	float: right;
+	position: right;
+	width: 200px;
 }
 
 /* #main {
@@ -165,4 +165,9 @@ figure.thumbnail:hover figcaption.popup {
 	left: 100px;
 	position: absolute;
 	z-index: 1;
+}
+
+#main {
+	margin-left: 210px;
+	margin-right: 210px;
 }
