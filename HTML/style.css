@@ -115,9 +115,8 @@ legend{
 }
 
 nav{
-	position: absolute;
-	left: 0;
-	top: 0;
+	float: left;
+	width: 15%;
 }
 
 .menu{
@@ -131,12 +130,11 @@ nav{
 }
 
 aside{
-	position: absolute;
-	right: 0;
-	top: 0;
+	float: right;
+	width: 15%;
 }
 
 #main {
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 16%;
+	margin-right: 16%;
 }
