@@ -119,6 +119,16 @@ nav{
 	float: left;
 }
 
+.menu{
+	position: absolute;
+	left: -100px;
+}
+
+.menu:hover{
+	left: 0;
+	transition: left .5s ease-out;
+}
+
 aside{
 	width: 12em;
 	float: right;
