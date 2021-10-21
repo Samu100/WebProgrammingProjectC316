@@ -115,9 +115,14 @@ legend{
 }
 
 
-.menu{
+nav{
 	float: left;
-	left: -400px;
+	width: 15%;
+}
+
+.menu{
+	position: absolute;
+	left: -200px;
 }
 
 .menu:hover{
