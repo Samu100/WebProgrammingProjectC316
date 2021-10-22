@@ -115,13 +115,13 @@ legend{
 }
 
 nav{
-	position: left;
-	width: 200px;
+	float: left;
+	width: 150px;
 }
 
 .menu{
 	position: absolute;	
-	left: -200px;
+	left: -100px;
 }
 
 .menu:hover{
@@ -130,8 +130,8 @@ nav{
 }
 
 aside{
-	position: right;
-	width: 200px;
+	float: right;
+	width: 100px;
 }
 
 /* #main {
@@ -168,6 +168,6 @@ figure.thumbnail:hover figcaption.popup {
 }
 
 #main {
-	margin-left: 210px;
-	margin-right: 210px;
+	margin-left: 110px;
+	margin-right: 110px;
 }
