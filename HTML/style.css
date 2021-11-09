@@ -171,3 +171,8 @@ figure.thumbnail:hover figcaption.popup {
 	margin-left: 110px;
 	margin-right: 110px;
 }
+
+.darkmode {
+	background-color: black;
+	color: white;
+}

@@ -16,12 +16,20 @@
             <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/Project1/Images/tumblr_nd38q5bsUM1s5jjtzo1_500.gif" height="60" width="60" alt="diamond">
         </h1>
     </header>
-    
+    <button onclick="darkMode()">Discreet Mode</button>
+
+    <script>
+        function darkMode(){
+            var element = document.body;
+            element.classList.toggle("darkmode");
+        }
+    </script>
+
     <nav class="menu">
         <h2 style = "text-align:right;">-----------------> <br> NAV</h2>
         <a href="#"; style = "text-align:left;">Home</a> 
         <br>
-        <a href="ContactUsPage.html"; style = "text-align:left;";>Contact Us</a>
+        <a href="ContactUsPage.html"; style = "text-align:left";>Contact Us</a>
         <br>
         <a href="#"; style = "text-align:left;">Reviews</a>
     </nav>
@@ -118,6 +126,7 @@
                         <figcaption class="popup">
                             <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/bust%20of%20nefertiti.jpg" height="200" width="200" alt="nerfertiti" class="imageDetails">
                             <p>The Nefertiti Bust</p>
+                        </figcaption>
                     </figure>
                 </td>
             </tr>
