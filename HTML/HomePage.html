@@ -32,12 +32,12 @@
     
     <button id="menuButton">Navigation</button>
     <script>
-        $(navigation(){
+        $(function(){
             $("#menu").hide();
-            $("menuButton").on("mouseenter", navigation() {
+            $("menuButton").on("mouseenter", function() {
                $("#menu").slideDown(200); 
             });
-            $("menuButton").on("mouseleave", navigation() {
+            $("menuButton").on("mouseleave", function() {
                $("#menu").slideDown(200); 
             });
         });
