@@ -8,14 +8,14 @@
 
 
 <body>
-    <button onclick="darkMode()">Discreet Mode</button>
+
 
     <script>
         function darkMode(){
-        var element = document.body;
-        element.classList.toggle("darkmode");
-        var headChange = document.h1;
-        headChange.classList.toggle("darkmode");
+            var element = document.body;
+            element.classList.toggle("darkmode");
+            var headChange = document.h1;
+            headChange.classList.toggle("darkmode");
         }
     </script>
 
@@ -28,6 +28,8 @@
         </h1>
     </header>
 
+    <button onclick="darkMode()">Discreet Mode</button>
+    
     <nav class="menu">
         <h2 style="text-align:right;">-----------------> <br> NAV</h2>
         <a href="#" ; style="text-align:left;">Home</a>
@@ -137,30 +139,6 @@
 
         </table>
 
-        <div class="box" class="center">
-            <p>Visit Again Soon!</p>
-        </div>
-
-        <!-- We also need to put our menu at the top of every webpage and also style it up -->
-        <details>
-            <Summary>Email</Summary>
-            <a href="mailto: inquiries@embezzled.com">inquiries@embezzled.com</a>
-        </details>
-        <details>
-            <Summary>Phone Number</Summary>
-            <!-- We need fix this so it is formatted a little bit better  -->
-            <p id="phoneNumber">123-456-7890</p>
-        </details>
-        <details>
-            <Summary>Address</Summary>
-            <a href="https://www.google.com/maps/dir//789+Manchester+St,+Lexington,+KY+40508/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8842448e1b4d79b9:0x6356bb1c404975f9?sa=X&ved=2ahUKEwiaivv5konzAhVPHc0KHW6BBbkQwwV6BAgIEAM">789 S. Manchester St, Lexington, KY 40502</a>
-        </details>
-        <details>
-            <Summary>Contact Us</Summary>
-            <a href="ContactUsPage.html">Click Link To Fill Out Form!</a>
-        </details>
-
-    </div>
 </body>
 
 </html>
