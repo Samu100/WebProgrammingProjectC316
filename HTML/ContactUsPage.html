@@ -57,16 +57,10 @@
                     <input type="text" name="address"/>
                 </div>
                 <br>
-                <div class="formElements">
-                    <label>City</label>
-                    <br>
-                    <input type="text" name="city"/>
-                </div>
-                <br>
-                <div class="formElements">
+                <div class="formElements country">
                     <label>Country</label>
                     <br>
-                    <select name="where">
+                    <select name="where" onchange="citySelection()" id="countrySelectID">
                         <option>Choose a country</option>
                         <optgroup label="North America">
                             <option>Canada</option>
@@ -76,8 +70,42 @@
                         <optgroup label="Europe">
                             <option>Italy</option>
                         </optgroup>
-                        <optgroup label="Other">
-                            <option>Rest Of The World :)</option>
+                    </select>
+                </div>
+                <br>
+                <div class="formElements city">
+                    <label>City</label>
+                    <br>
+                    <select name="city" id="ItalySelectID">
+                        <option>Choose a City</option>
+                        <optgroup label="Major Italian Cities">
+                            <option>Rome</option>
+                            <option>Florence</option>
+                            <option>Venice</option>
+                        </optgroup>
+                    </select>
+                    <select name="city" id="CanadaSelectID">
+                        <option>Choose a City</option>
+                        <optgroup label="Major Canadian Cities">
+                            <option>Toronto</option>
+                            <option>Montréal</option>
+                            <option>Vancouver</option>
+                        </optgroup>
+                    </select>
+                    <select name="city" id="MexicoSelectID">
+                        <option>Choose a City</option>
+                        <optgroup label="Major Mexican Cities">
+                            <option>Mexico City</option>
+                            <option>Tijuana</option>
+                            <option>Ecatepec</option>
+                        </optgroup>
+                    </select>
+                    <select name="city" id="USASelectID">
+                        <option>Choose a City</option>
+                        <optgroup label="Major USA Cities">
+                            <option>New York City</option>
+                            <option>Los Angeles</option>
+                            <option>Chicago</option>
                         </optgroup>
                     </select>
                 </div>
@@ -91,6 +119,48 @@
                 <input type="submit" />
                 <input type="reset" />
         </fieldset>
+        <script>
+            var country = document.querySelector(".country");
+            var city = document.querySelector(".city");
+            city.style.display = "none";
+            var Italy = document.querySelector("#ItalySelectID");
+            Italy.style.display = "none";
+            var Canada = document.querySelector("#CanadaSelectID");
+            Canada.style.display = "none";
+            var Mexico = document.querySelector("#MexicoSelectID");
+            Mexico.style.display = "none";
+            var USA = document.querySelector("#USASelectID");
+            USA.style.display = "none";
+            
+            function citySelection(){
+                if (city.style.display === "none") {
+                    city.style.display = "block";
+                }
+                var countryselected = document.getElementById("countrySelectID");
+                var text = countryselected.options[countryselected.selectedIndex].text;
+                if (text === "Italy"){
+                    Italy.style.display = "block"
+                    Canada.style.display = "none";
+                    Mexico.style.display = "none";
+                    USA.style.display = "none";
+                }else if (text === "Canada"){
+                    Canada.style.display = "block"
+                    Italy.style.display = "none";
+                    Mexico.style.display = "none";
+                    USA.style.display = "none";
+                }else if (text === "Mexico"){
+                    Mexico.style.display = "block";
+                    Italy.style.display = "none";
+                    USA.style.display = "none";
+                    Canada.style.display = "none";
+                }else if (text === "United States"){
+                    USA.style.display = "block";
+                    Canada.style.display = "none";
+                    Mexico.style.display = "none";
+                    Italy.style.display = "none";
+                }
+            }
+        </script>
     </form>
 
     <br>
