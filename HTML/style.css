@@ -119,7 +119,7 @@ nav{
 	width: 150px;
 }
 
-.menu{
+#menu{
 	position: absolute;	
 	left: -100px;
 }
@@ -175,4 +175,8 @@ figure.thumbnail:hover figcaption.popup {
 .darkmode {
 	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/main/Images/black.jpg");
 	color: white;
+}
+
+#menuButton {
+	color: darkgray;
 }

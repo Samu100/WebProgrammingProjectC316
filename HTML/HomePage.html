@@ -30,8 +30,21 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     
-    <nav class="menu">
-        <h2 style="text-align:right;">-----------------> <br> NAV</h2>
+    <button id="menuButton">Nav</button>
+    <script>
+        $(navigation(){
+            $("#menu").hide();
+            $("menuButton").on("mouseenter", navigation() {
+               $("#menu").slideDown(200); 
+            });
+            $("menuButton").on("mouseleave", navigation() {
+               $("#menu").slideDown(200); 
+            });
+        });
+    </script>
+
+    <nav id="menu">
+        <!--<h2 style="text-align:right;">-----------------> <br> NAV</h2> -->
         <a href="#" ; style="text-align:left;">Home</a>
         <br>
         <a href="ContactUsPage.html" ; style="text-align:left" ;>Contact Us</a>
