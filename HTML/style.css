@@ -173,6 +173,6 @@ figure.thumbnail:hover figcaption.popup {
 }
 
 .darkmode {
-	background-color: black;
+	background-image: url("https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/main/Images/black.jpg");
 	color: white;
 }
