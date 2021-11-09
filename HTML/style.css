@@ -119,15 +119,15 @@ nav{
 	width: 150px;
 }
 
-#menu{
+.edge{
 	position: absolute;	
 	left: -100px;
 }
 
-.menu:hover{
+/*.menu:hover{
 	left: 0;
 	transition: left .5s ease-out;
-}
+}*/
 
 aside{
 	float: right;
@@ -177,6 +177,11 @@ figure.thumbnail:hover figcaption.popup {
 	color: white;
 }
 
+
+#menu {
+	background-color: white;
+}
+
 #menuButton {
-	color: darkgray;
+	background-color: darkgray;
 }
