@@ -12,10 +12,10 @@
 
     <script>
         function darkMode(){
-            var element = document.body;
-            element.classList.toggle("darkmode");
-            var headChange = document.h1;
-            headChange.classList.toggle("darkmode");
+        var element = document.body;
+        element.classList.toggle("darkmode");
+        var headChange = document.h1;
+        headChange.classList.toggle("darkmode");
         }
     </script>
 
@@ -29,28 +29,30 @@
     </header>
 
     <button onclick="darkMode()">Discreet Mode</button>
-    
-    <button id="menuButton">Navigation</button>
-    <script>
-        $(function(){
-            $("#menu").hide();
-            $("menuButton").on("mouseenter", function() {
-               $("#menu").slideDown(200); 
-            });
-            $("menuButton").on("mouseleave", function() {
-               $("#menu").slideDown(200); 
-            });
-        });
-    </script>
+
+
 
     <nav id="menu">
-        <!--<h2 style="text-align:right;">-----------------> <br> NAV</h2> -->
+        <!--<h2 style="text-align:right;">-----------------> <!--<br> NAV</h2>-->-->
         <a href="#" ; style="text-align:left;">Home</a>
         <br>
         <a href="ContactUsPage.html" ; style="text-align:left" ;>Contact Us</a>
         <br>
         <a href="#" ; style="text-align:left;">Reviews</a>
     </nav>
+    
+    <button id="menuButton">Navigation</button>
+    <script>
+        $(function(){
+            $("#menu").hide();
+            $("menuButton").on("mouseenter", function() {
+                $("#menu").slideDown(300);
+            });
+            $("menuButton").on("mouseleave", function() {
+                $("#menu").slideDown(200);
+            });
+        });
+    </script>
 
     <aside>
         <h2>About Us</h2>
