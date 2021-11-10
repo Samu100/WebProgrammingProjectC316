@@ -33,7 +33,6 @@
     <button class="menuButton">Navigation</button>
 
     <ul class="menu">
-        <!--<h2 style="text-align:right;">-----------------> <!--<br> NAV</h2>-->-->
         <li><a href="HomePage.html">Home</a></li>
         <li><a href="ContactUsPage.html">Contact Us</a></li>
         <li><a href="#">Reviews</a>
@@ -41,15 +40,15 @@
 
     <script>
         $(function () {
-        $(".menu").hide();
+            $(".menu").hide();
 
-        $(".menuButton").on("mouseenter", function () {
-        $(".menu").slideDown(300);
-        });
+            $(".menuButton").on("mouseenter", function () {
+                $(".menu").slideDown(300);
+            });
 
-        $(".menuButton").on("mouseleave", function () {
-        $(".menu").slideUp(200);
-        });
+            $(".menuButton").on("mouseleave", function () {
+                $(".menu").slideUp(200);
+            });
 
         });
     </script>
