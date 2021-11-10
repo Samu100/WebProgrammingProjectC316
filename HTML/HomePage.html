@@ -31,26 +31,29 @@
     <button onclick="darkMode()">Discreet Mode</button>
 
     <button id="menuButton">Navigation</button>
-    
-    <script>
-        $(function () {
-            $("#menu").hide();
-
-            $("#menuButton").on("mouseenter", function () {
-                $("#menu").slideDown(300);
-            });
-            $("menuButton").on("mouseleave", function () {
-                $("#menu").slideUp(200);
-            });
-        });
-    </script>
 
     <ul id="menu">
         <!--<h2 style="text-align:right;">-----------------> <!--<br> NAV</h2>-->-->
         <li><a href="HomePage.html">Home</a></li>
         <li><a href="ContactUsPage.html">Contact Us</a></li>
-        <li><a href="#">Reviews</a><li>
+        <li><a href="#">Reviews</a>
+        <li>
     </ul>
+
+    <script>
+        $(function () {
+        $("#menu").hide();
+
+        $("#menuButton").on("mouseenter", function () {
+        $("#menu").slideDown(300);
+        });
+
+        $("menuButton").on("mouseleave", function () {
+        $("#menu").slideUp(200);
+        });
+
+        });
+    </script>
 
     <aside>
         <h2>About Us</h2>
