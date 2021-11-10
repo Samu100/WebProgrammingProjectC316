@@ -40,14 +40,14 @@
 
     <script>
         $(function () {
-            $(".menu").hide(function ());
+            $('.menu').hide();
 
-            $(".menuButton").on("mouseenter", function () {
+            $('.menuButton').on("mouseenter", function () {
                 $(".menu").slideDown(300);
             });
 
-            $(".menuButton").on("mouseleave", function () {
-                $(".menu").slideUp(200);
+            $('.menuButton').on("mouseleave", function () {
+                $('.menu').slideUp(200);
             });
 
         });
