@@ -178,10 +178,10 @@ figure.thumbnail:hover figcaption.popup {
 }
 
 
-#menu {
+.menu {
 	background-color: white;
 }
 
-#menuButton {
+.menuButton {
 	background-color: darkgray;
 }
