@@ -38,7 +38,7 @@
         <li><a href="#">Reviews</a>
     </ul>
 
-    <script>
+<!--    <script>
         $(menuSlide () {
             $('.menu').hide();
 
@@ -52,8 +52,18 @@
 
         });
     </script>
+-->
 
-    <button onmouseover="function()">Navigation</button>
+    <script>
+        $(document).ready(menuSlide(){
+            $("#menuButton").click(menuSlide(){
+        
+                $("#menu").slideToggle("slow");
+            });
+        });
+    </script>
+    
+    <button onclick="menuSlide()">Navigation</button>
 
 
 
