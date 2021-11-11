@@ -18,9 +18,8 @@
     </script>
 
     <!--j query javascript for navigation slidedown-->
-    <script>
+    <!--<script>
         $("#menuContent").hide();
-
         $(menuSlide () {
 
 
@@ -33,8 +32,15 @@
         }); 
 
         });
+     </script>-->
 
-
+    <script>
+        $(document).ready(menuHide(){
+            $("#menuButton").click(menuHise(){
+                $("#menuContent").hide(200);
+            });
+        
+        });    
     </script>
 </head>
 
@@ -50,7 +56,7 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button id="menuButton" onclick="menuSlide()">Navigation</button>
+    <button id="menuButton">Navigation</button>
 
     <nav>
         <ul id="menuContent">
