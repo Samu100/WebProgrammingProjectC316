@@ -32,37 +32,37 @@
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
 
-    <ul class="menu">
+    <ul id="menu">
         <li><a href="HomePage.html">Home</a></li>
         <li><a href="ContactUsPage.html">Contact Us</a></li>
         <li><a href="#">Reviews</a>
     </ul>
 
-<!--    <script>
-        $(menuSlide () {
-            $('.menu').hide();
+    <!--    <script>
+            $(menuSlide () {
+                $("#menu").hide();
 
-            $('.menuButton').on("mouseenter", menuSlide () {
-                $('.menu).slideDown(300);
+                $("#menuButton").on("mouseenter", menuSlide () {
+                    $("#menu").slideDown(300);
+                });
+
+                $("#menuButton").on("mouseleave", menuSlide () {
+                    $("#menu".slideUp(200);
+                });
+
             });
-
-            $('.menuButton').on("mouseleave", menuSlide () {
-                $('.menu').slideUp(200);
-            });
-
-        });
-    </script>
--->
+        </script>
+    -->
 
     <script>
         $(document).ready(menuSlide(){
-            $("#menuButton").click(menuSlide(){
-        
-                $("#menu").slideToggle("slow");
-            });
+        $("#menuButton").click(menuSlide(){
+
+        $("#menu").slideToggle("slow");
+        });
         });
     </script>
-    
+
     <button onclick="menuSlide()">Navigation</button>
 
 
