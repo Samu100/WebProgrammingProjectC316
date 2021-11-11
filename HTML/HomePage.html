@@ -3,6 +3,7 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <title>Embezzled</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -21,7 +22,7 @@
     </script>
 
     <!--j query javascript for navigation slidedown-->
-    <script>
+   <!-- <script>
         $(function () {
         
         $("#menuButton").hide();
@@ -35,6 +36,12 @@
         });
 
         });
+    </script>-->
+
+    <script type="text/javascript">
+        $('#menu ul li').hover(function(){
+            $(this).children('ul').slideToggle(400);
+        });    
     </script>
 
 
