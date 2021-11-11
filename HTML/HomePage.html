@@ -6,10 +6,6 @@
     <script src="script.js"></script>
     <title>Embezzled</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-
-<body>
 
     <!--dark mode javascript-->
     <script>
@@ -23,19 +19,26 @@
 
     <!--j query javascript for navigation slidedown-->
     <script>
-        $(function () {
-        
-        
+        $("#menuContent").hide();
 
-    
+        $(menuSlide () {
+
+
+        $("#menuButton").click( menuSlide () {
+        $("#menuCotent").slideDown(300);
+        });
+
+        $("#menuButton").click( menuSlide () {
+        $("#menuContent".slideUp(200);
+        }); 
 
         });
 
-        $("#menuContent").hide();
+
     </script>
+</head>
 
-    
-
+<body>
 
     <header>
         <h1 id="main">
@@ -47,7 +50,7 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button id="menuButton">Navigation</button>
+    <button id="menuButton" onclick="menuSlide()">Navigation</button>
 
     <nav>
         <ul id="menuContent">
