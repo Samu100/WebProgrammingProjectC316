@@ -21,22 +21,21 @@
     </script>
 
     <!--j query javascript for navigation slidedown-->
-
     <script>
-        $(document).ready(function(){
-            $("#menu").hide();
-            $("#menuButton").click(function(){
-                var isHidden = $("#menu").is(":hidden");
-                if(isHidden){
-                    $('#menu').slideDown();
-                }
-                else{
-                    $('menu').slideUp();
-                }
-            });
+        $(function () {
+        $("#menu").hide();
+
+        $("#menuButton").click( function () {
+        $("#menu").slideDown(300);
         });
-        
+
+        $("#menuButton").click( function () {
+        $("#menu".slideUp(200);
+        });
+
+        });
     </script>
+
 
     <header>
         <h1 id="main">
@@ -57,21 +56,7 @@
         <li><a href="#">Reviews</a>
     </ul>
 
-    <!--    <script>
-            $(menuSlide () {
-                $("#menu").hide();
 
-                $("#menuButton").on("mouseenter", menuSlide () {
-                    $("#menu").slideDown(300);
-                });
-
-                $("#menuButton").on("mouseleave", menuSlide () {
-                    $("#menu".slideUp(200);
-                });
-
-            });
-        </script>
-    -->
 
 
 
@@ -182,3 +167,24 @@
 </body>
 
 </html>
+
+
+
+
+<!--    
+    <script>
+        $(document).ready(function(){
+            $("#menu").hide();
+            $("#menuButton").click(function(){
+                var isHidden = $("#menu").is(":hidden");
+                if(isHidden){
+                    $('#menu').slideDown();
+                }
+                else{
+                    $('menu').slideUp();
+                }
+            });
+        });
+
+    </script>
+    -->
