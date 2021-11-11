@@ -23,7 +23,8 @@
     <!--j query javascript for navigation slidedown-->
     <script>
         $(function () {
-        $("#menu").hide();
+        
+        $("#menuButton").hide();
 
         $("#menuButton").click( function () {
         $("#menu").slideDown(300);
@@ -49,18 +50,13 @@
     <br><br>
     <button id="menuButton">Navigation</button>
 
-
-    <ul id="menu">
-        <li><a href="HomePage.html">Home</a></li>
-        <li><a href="ContactUsPage.html">Contact Us</a></li>
-        <li><a href="#">Reviews</a>
-    </ul>
-
-
-
-
-
-
+    <nav>
+        <ul id="menu">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="ContactUsPage.html">Contact Us</a></li>
+            <li><a href="#">Reviews</a>
+        </ul>
+    </nav>
 
 
     <aside>
