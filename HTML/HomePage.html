@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Embezzled</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -38,16 +39,16 @@
     </ul>
 
     <script>
-        $(function () {
-        $('.menu').hide();
+        $(menuSlide () {
+            $('.menu').hide();
 
-        $('.menuButton').on("mouseenter", function () {
-        $(".menu").slideDown(300);
-        });
+            $('.menuButton').on("mouseenter", menuSlide () {
+                $('.menu).slideDown(300);
+            });
 
-        $('.menuButton').on("mouseleave", function () {
-        $('.menu').slideUp(200);
-        });
+            $('.menuButton').on("mouseleave", menuSlide () {
+                $('.menu').slideUp(200);
+            });
 
         });
     </script>
