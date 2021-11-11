@@ -24,11 +24,17 @@
 
     <script>
         $(document).ready(function(){
-        $("#menuButton").click(function(){
-
-        $("#menu").slideToggle("slow");
+            $("#menuButton").click(function(){
+                var isHidden = $("#menu").is(":hidden");
+                if(isHidden){
+                    $('#menu').slideDown();
+                }
+                else{
+                    $('menu').slideUp();
+                }
+            });
         });
-        });
+        
     </script>
 
     <header>
@@ -41,7 +47,7 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button onclick="menuSlide()">Navigation</button>
+    <button id="menuButton">Navigation</button>
 
 
     <ul id="menu">
