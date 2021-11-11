@@ -10,7 +10,7 @@
 
 <body>
 
-
+    <!--dark mode javascript-->
     <script>
         function darkMode(){
         var element = document.body;
@@ -20,6 +20,16 @@
         }
     </script>
 
+    <!--j query javascript for navigation slidedown-->
+
+    <script>
+        $(document).ready(function(){
+        $("#menuButton").click(function(){
+
+        $("#menu").slideToggle("slow");
+        });
+        });
+    </script>
 
     <header>
         <h1 id="main">
@@ -31,6 +41,8 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
+    <button onclick="menuSlide()">Navigation</button>
+
 
     <ul id="menu">
         <li><a href="HomePage.html">Home</a></li>
@@ -54,16 +66,8 @@
         </script>
     -->
 
-    <script>
-        $(document).ready(menuSlide(){
-        $("#menuButton").click(menuSlide(){
 
-        $("#menu").slideToggle("slow");
-        });
-        });
-    </script>
 
-    <button onclick="menuSlide()">Navigation</button>
 
 
 
