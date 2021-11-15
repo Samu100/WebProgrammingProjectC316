@@ -3,7 +3,7 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="jquery-3.6.0.js""></script>
+    <script src="jquery-3.6.0.js" "></script>
     <title>Embezzled</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -18,36 +18,48 @@
     </script>
 
     <!--j query javascript for navigation slidedown-->
-    <!--<script>
+    <script>
+        <!--function menuToggle(){
         $("#menuContent").hide();
-        $(menuSlide () {
+        $(function () {
 
 
-        $("#menuButton").click( menuSlide () {
+        $("#menuButton").click(function () {
         $("#menuCotent").slideDown(300);
         });
 
-        $("#menuButton").click( menuSlide () {
+        $("#menuButton").click( function () {
         $("#menuContent".slideUp(200);
-        }); 
+        });
 
         });
-     </script>-->
+        }
+    </script>-->
 
     <script>
-       function menuHide(){
+        function menuHide(){
         $(document).ready(function(){
-            $("#menuButton").click(function(){   
-                $("#menuContent").hide(200);
-            });
+        $("#menuButton").click(function(){
+        $("#menuContent").hide(200);
         });
-       }
+        });
+        }
+    </script>
+
+    <script>
+        function menuShow(){
+        $(document).ready(function(){
+        $("#menuButtonShow").click(function(){
+        $("#menuContent").show(200);
+        });
+        });
+        }
     </script>
 
     <script>
         $(document).ready(function(){
-            $('#picture1').fadeIn(2000).delay(4000).fadeOut(2000);
-            $('#picture2').delay(5500).fadeIn(1500);
+        $('#picture1').fadeIn(2000).delay(4000).fadeOut(2000);
+        $('#picture2').delay(5500).fadeIn(1500);
         });
     </script>
 </head>
@@ -66,7 +78,9 @@
     <br><br>
     <button id="menuButton" onclick="menuHide()">Click to hide Menu</button>
     <br><br>
-    
+
+    <button id="menuButtonShow" onclick="menuShow()">Click to show Menu</button>
+
     <div id="menuContent">
         <ul>
             <li><a href="HomePage.html">Home</a></li>
