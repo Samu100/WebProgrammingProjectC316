@@ -180,11 +180,12 @@ figure.thumbnail:hover figcaption.popup {
 
 #menuContent {
 /*	background-color: white; */
-	
+	float: left;
 }
 
 #menuButton {
 	background-color: maroon;
+	float:left;
 }
 
 #picture1, #picture2 {
