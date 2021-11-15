@@ -18,23 +18,25 @@
     </script>
 
     <!--j query javascript for navigation slidedown-->
-    <!--<script>
+    <script>
+        function menuToggle(){
         $("#menuContent").hide();
-        $(menuSlide () {
+        $(function () {
 
 
-        $("#menuButton").click( menuSlide () {
+        $("#menuButton").click(function () {
         $("#menuCotent").slideDown(300);
         });
 
-        $("#menuButton").click( menuSlide () {
+        $("#menuButton").click( function () {
         $("#menuContent".slideUp(200);
         }); 
 
         });
-     </script>-->
+        }
+     </script>
 
-    <script>
+    <!--<script>
        function menuHide(){
         $(document).ready(function(){
             $("#menuButton").click(function(){   
@@ -42,7 +44,7 @@
             });
         });
        }
-    </script>
+    </script>-->
 
     <script>
         $(document).ready(function(){
@@ -64,7 +66,7 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button id="menuButton" onclick="menuHide()">Click to hide Menu</button>
+    <button id="menuButton" onclick="menuToggle()">Click to hide Menu</button>
     
     <div id="menuContent">
         <ul>
