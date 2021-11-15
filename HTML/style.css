@@ -184,9 +184,12 @@ figure.thumbnail:hover figcaption.popup {
 }
 
 #menuButton {
-	background-color: maroon;
+	background-color: white;
 }
 
+#menuButtonShow {
+	background-color: white;
+}
 #picture1, #picture2 {
 	position: absolute;
 	display: none;
