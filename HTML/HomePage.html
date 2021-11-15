@@ -36,8 +36,8 @@
 
     <script>
        function menuHide(){
-        $(document).ready(menuHide(){
-            $("#menuButton").click(menuHide(){   
+        $(document).ready(function(){
+            $("#menuButton").click(function(){   
                 $("#menuContent").hide(200);
             });
         });
@@ -45,7 +45,10 @@
     </script>
 
     <script>
-        
+        $(document).ready(function(){
+            $('#picture1').fadeIn(2000).delay(4000).fadeOut(2000);
+            $('#picture2').delay(5500).fadeIn(1500);
+        });
     </script>
 </head>
 
@@ -61,7 +64,7 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button id="menuButton">Click to hide Menu</button>
+    <button id="menuButton" onclick="menuHide()">Click to hide Menu</button>
     
     <div id="menuContent">
         <ul>
@@ -171,6 +174,11 @@
 
         </table>
 
+    </div>
+
+    <div id="bothpictures">
+        <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/come-back-soon-red-stamp-white-background-95566696.jpg" width="100" height="100" id="picture1">
+        <img src="https://raw.githubusercontent.com/Samu100/WebProgrammingProjectC316/project2/Images/bust%20of%20nefertiti.jpg" width="100" height="100" id="picture1">
     </div>
 </body>
 
