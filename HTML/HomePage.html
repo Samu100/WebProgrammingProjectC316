@@ -3,7 +3,7 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="jquery-3.6.0.js""></script>
     <title>Embezzled</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -35,7 +35,11 @@
      </script>-->
 
     <script>
-            $("#menuContent").hide(200);
+        $(document).ready(menuHide(){
+            $("#menuButton").click(menuHide(){   
+                $("#menuContent").hide(200);
+            });
+        });
        
     </script>
 </head>
@@ -52,16 +56,16 @@
 
     <button onclick="darkMode()">Discreet Mode</button>
     <br><br>
-    <button id="menuButton" onclick="menuHide()">Navigation</button>
-
-    <nav id="menuContent">
-        <ul>
+<!--    <button id="menuButton" onclick="menuHide()">Navigation</button>
+-->
+    <button id="menuButton">Click to hide Menu</button>
+    
+        <ul id="menuContent">
             <li><a href="HomePage.html">Home</a></li>
             <li><a href="ContactUsPage.html">Contact Us</a></li>
             <li><a href="#">Reviews</a>
         </ul>
-    </nav>
-
+    
 
     <aside>
         <h2>About Us</h2>
