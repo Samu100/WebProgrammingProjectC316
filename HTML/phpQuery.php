@@ -12,7 +12,7 @@ if($db->connect_error){
 
 $sql = "CREATE DATABASE artDB";
 if($db->query($sql) === TRUE){
-	echo "created";
+	echo ("created");
 }
 /*
 mysqli_select_db("artDB", $db);
