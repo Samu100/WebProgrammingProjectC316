@@ -23,101 +23,103 @@
 
     <br>
 
-    <form method ="post" action="http://examples.funwebdev.com/process.php ">
+  <!--// <form method="post" action="http://examples.funwebdev.com/process.php ">-->
+     <form method="get" action="test.php ">
+
         <fieldset>
             <legend>Fill Out Form Below</legend>
+            <br>
+            <div class="formElements">
+                <label>First Name</label>
                 <br>
-                <div class="formElements">
-                    <label>First Name</label>
-                    <br>
-                    <input type="text" name="first name"/>
-                </div>
-                <div class="formElements">
-                    <label>Last Name</label>
-                    <br>
-                    <input type="text" name="last name"/>
-                </div>
+                <input type="text" name="first name" />
+            </div>
+            <div class="formElements">
+                <label>Last Name</label>
                 <br>
-                <div class="formElements">
-                    <label>Gender</label><br/>
-                    <input type="checkbox" name="gender" value="male">Male<br/>
-                    <input type="checkbox" name="gender" value="female">Female<br/>
-                    <input type="checkbox" name="gender" value="other">Other<br/>
-                </div>
+                <input type="text" name="last name" />
+            </div>
+            <br>
+            <div class="formElements">
+                <label>Gender</label><br />
+                <input type="checkbox" name="gender" value="male">Male<br />
+                <input type="checkbox" name="gender" value="female">Female<br />
+                <input type="checkbox" name="gender" value="other">Other<br />
+            </div>
+            <br>
+            <div class="formElements">
+                <label>Phone Number</label>
                 <br>
-                <div class="formElements">
-                    <label>Phone Number</label>
-                    <br>
-                    <input type="tel" id="phone" name="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-                </div>
+                <input type="tel" id="phone" name="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+            </div>
+            <br>
+            <div class="formElements">
+                <label>Address</label>
                 <br>
-                <div class="formElements">
-                    <label>Address</label>
-                    <br>
-                    <input type="text" name="address"/>
-                </div>
+                <input type="text" name="address" />
+            </div>
+            <br>
+            <div class="formElements country">
+                <label>Country</label>
                 <br>
-                <div class="formElements country">
-                    <label>Country</label>
-                    <br>
-                    <select name="where" onchange="citySelection()" id="countrySelectID">
-                        <option>Choose a country</option>
-                        <optgroup label="North America">
-                            <option>Canada</option>
-                            <option>Mexico</option>
-                            <option>United States</option>
-                        </optgroup>
-                        <optgroup label="Europe">
-                            <option>Italy</option>
-                        </optgroup>
-                    </select>
-                </div>
+                <select name="where" onchange="citySelection()" id="countrySelectID">
+                    <option>Choose a country</option>
+                    <optgroup label="North America">
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                        <option>United States</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option>Italy</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div class="formElements city">
+                <label>City</label>
                 <br>
-                <div class="formElements city">
-                    <label>City</label>
-                    <br>
-                    <select name="city" id="ItalySelectID">
-                        <option>Choose a City</option>
-                        <optgroup label="Major Italian Cities">
-                            <option>Rome</option>
-                            <option>Florence</option>
-                            <option>Venice</option>
-                        </optgroup>
-                    </select>
-                    <select name="city" id="CanadaSelectID">
-                        <option>Choose a City</option>
-                        <optgroup label="Major Canadian Cities">
-                            <option>Toronto</option>
-                            <option>Montréal</option>
-                            <option>Vancouver</option>
-                        </optgroup>
-                    </select>
-                    <select name="city" id="MexicoSelectID">
-                        <option>Choose a City</option>
-                        <optgroup label="Major Mexican Cities">
-                            <option>Mexico City</option>
-                            <option>Tijuana</option>
-                            <option>Ecatepec</option>
-                        </optgroup>
-                    </select>
-                    <select name="city" id="USASelectID">
-                        <option>Choose a City</option>
-                        <optgroup label="Major USA Cities">
-                            <option>New York City</option>
-                            <option>Los Angeles</option>
-                            <option>Chicago</option>
-                        </optgroup>
-                    </select>
-                </div>
+                <select name="city" id="ItalySelectID">
+                    <option>Choose a City</option>
+                    <optgroup label="Major Italian Cities">
+                        <option>Rome</option>
+                        <option>Florence</option>
+                        <option>Venice</option>
+                    </optgroup>
+                </select>
+                <select name="city" id="CanadaSelectID">
+                    <option>Choose a City</option>
+                    <optgroup label="Major Canadian Cities">
+                        <option>Toronto</option>
+                        <option>Montréal</option>
+                        <option>Vancouver</option>
+                    </optgroup>
+                </select>
+                <select name="city" id="MexicoSelectID">
+                    <option>Choose a City</option>
+                    <optgroup label="Major Mexican Cities">
+                        <option>Mexico City</option>
+                        <option>Tijuana</option>
+                        <option>Ecatepec</option>
+                    </optgroup>
+                </select>
+                <select name="city" id="USASelectID">
+                    <option>Choose a City</option>
+                    <optgroup label="Major USA Cities">
+                        <option>New York City</option>
+                        <option>Los Angeles</option>
+                        <option>Chicago</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div class="formElements">
+                <label>Feedback/Question</label>
                 <br>
-                <div class="formElements">
-                    <label>Feedback/Question</label>
-                    <br>
-                    <textarea name="text" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea>
-                </div>
-                <br>
-                <input type="submit" />
-                <input type="reset" />
+                <textarea name="text" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea>
+            </div>
+            <br>
+            <input type="submit" />
+            <input type="reset" />
         </fieldset>
         <script>
             var country = document.querySelector(".country");
@@ -131,34 +133,34 @@
             Mexico.style.display = "none";
             var USA = document.querySelector("#USASelectID");
             USA.style.display = "none";
-            
+
             function citySelection(){
-                if (city.style.display === "none") {
-                    city.style.display = "block";
-                }
-                var countryselected = document.getElementById("countrySelectID");
-                var text = countryselected.options[countryselected.selectedIndex].text;
-                if (text === "Italy"){
-                    Italy.style.display = "block"
-                    Canada.style.display = "none";
-                    Mexico.style.display = "none";
-                    USA.style.display = "none";
-                }else if (text === "Canada"){
-                    Canada.style.display = "block"
-                    Italy.style.display = "none";
-                    Mexico.style.display = "none";
-                    USA.style.display = "none";
-                }else if (text === "Mexico"){
-                    Mexico.style.display = "block";
-                    Italy.style.display = "none";
-                    USA.style.display = "none";
-                    Canada.style.display = "none";
-                }else if (text === "United States"){
-                    USA.style.display = "block";
-                    Canada.style.display = "none";
-                    Mexico.style.display = "none";
-                    Italy.style.display = "none";
-                }
+            if (city.style.display === "none") {
+            city.style.display = "block";
+            }
+            var countryselected = document.getElementById("countrySelectID");
+            var text = countryselected.options[countryselected.selectedIndex].text;
+            if (text === "Italy"){
+            Italy.style.display = "block"
+            Canada.style.display = "none";
+            Mexico.style.display = "none";
+            USA.style.display = "none";
+            }else if (text === "Canada"){
+            Canada.style.display = "block"
+            Italy.style.display = "none";
+            Mexico.style.display = "none";
+            USA.style.display = "none";
+            }else if (text === "Mexico"){
+            Mexico.style.display = "block";
+            Italy.style.display = "none";
+            USA.style.display = "none";
+            Canada.style.display = "none";
+            }else if (text === "United States"){
+            USA.style.display = "block";
+            Canada.style.display = "none";
+            Mexico.style.display = "none";
+            Italy.style.display = "none";
+            }
             }
         </script>
     </form>
@@ -166,14 +168,14 @@
     <br>
     <br>
     <br>
-    
+
     <details>
         <Summary>Email</Summary>
         <p><a href="mailto: inquiries@embezzled.com">inquiries@embezzled.com</a></p>
     </details>
     <details>
         <Summary>Phone Number</Summary>
-        <p id = "phoneNumber">123-456-7890</p>
+        <p id="phoneNumber">123-456-7890</p>
     </details>
     <details>
         <Summary>Address</Summary>
