@@ -11,10 +11,10 @@ if($db->connect_error){
 }
 
 $sql = "CREATE DATABASE artDB";
-if($db->($sql) === TRUE){
+if($db->query($sql) === TRUE){
 	echo "created";
 }
-
+/*
 mysqli_select_db("artDB", $db);
 $sql = "CREATE TABLE Sculptures
 (
@@ -28,7 +28,7 @@ mysqli_query("INSERT INTO Sculptures (Title) VALUES ('Venus de Milo')");
 mysqli_query("INSERT INTO Sculptures (Title) VALUES ('Jeff the Balloon')");
 mysqli_query("INSERT INTO Sculptures (Title) VALUES ('Nefertiti Bust')");
 
-
+*/
 ?>
 
 <html>
